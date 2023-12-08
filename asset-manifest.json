@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-worldwise-router/static/css/main.b50d5f90.css",
+    "main.js": "/react-worldwise-router/static/js/main.ca456e19.js",
+    "static/media/bg.jpg": "/react-worldwise-router/static/media/bg.3e2be86d98db926ce9f0.jpg",
+    "index.html": "/react-worldwise-router/index.html",
+    "main.b50d5f90.css.map": "/react-worldwise-router/static/css/main.b50d5f90.css.map",
+    "main.ca456e19.js.map": "/react-worldwise-router/static/js/main.ca456e19.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b50d5f90.css",
+    "static/js/main.ca456e19.js"
+  ]
+}
