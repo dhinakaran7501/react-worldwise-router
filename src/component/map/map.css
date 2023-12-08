@@ -1,0 +1,17 @@
+.location-sec {
+  position: relative;
+}
+.location-sec button {
+  position: absolute;
+  left: 370px;
+  bottom: 24px;
+  background-color: #00c46a;
+  text-transform: uppercase;
+  padding: 9px 25px;
+  border-radius: 4px;
+  color: black;
+  font-weight: 800;
+  outline: none;
+  border: 1px solid #00c46a;
+  cursor: pointer;
+}

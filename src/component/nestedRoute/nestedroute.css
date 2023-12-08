@@ -1,0 +1,105 @@
+.cities {
+  margin: 35px;
+  height: 91vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+.cities .row1 {
+  padding: 10px;
+  background-color: #2d3439;
+  height: 98%;
+  width: 40%;
+}
+.cities-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px 43px;
+}
+.cities-img img {
+  width: 42%;
+}
+.cities-btns {
+  background-color: #42484d;
+  margin: 10px auto;
+  width: 34%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 6px;
+}
+.cities-btns button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 12px;
+  display: flex;
+  cursor: pointer;
+}
+.cities-names {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 0 auto;
+  height: 372px;
+}
+.footer {
+  position: relative;
+  top: 113px;
+  left: 157px;
+  color: #aaa;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+.cities a {
+  color: white;
+}
+.login-name {
+  border: 1px solid;
+  padding: 6px 10px;
+  border-radius: 5px;
+  position: absolute;
+  width: 20%;
+  top: 20px;
+  right: 20px;
+  background-color: #2d3439;
+  height: 6%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.login-name img {
+  width: 16%;
+  border-radius: 50%;
+}
+.login-name button {
+  background-color: #42484d;
+  border-radius: 7px;
+  border: none;
+  color: inherit;
+  padding: 5px 8px;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* Row 2 */
+
+.cities .row2 {
+  width: 60%;
+}
+.cities iframe {
+  width: 100%;
+  height: 92vh;
+  border: 0;
+}

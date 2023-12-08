@@ -1,0 +1,32 @@
+.errorComponent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+.errorComponent h1,
+h2,
+p {
+  margin: 0;
+}
+.errorComponent h1 {
+  font-size: 70px;
+}
+.errorComponent h2 {
+  font-size: 50px;
+  margin-bottom: 16px;
+}
+.errorComponent p {
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+.errorComponent a {
+  color: lawngreen;
+  padding: 0px 10px;
+  text-decoration: underline;
+}

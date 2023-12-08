@@ -1,0 +1,89 @@
+.login {
+  margin: 35px;
+  background-color: #2d3439;
+  height: 91vh;
+  padding: 0px 41px;
+}
+.login .row1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.title-name img {
+  width: 25%;
+}
+.login .buttons ul {
+  display: flex;
+  align-items: center;
+  width: 388px;
+  justify-content: space-around;
+}
+.login ul li {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.login ul li a {
+  color: #ececec;
+}
+.login ul li:nth-child(3) p {
+  background-color: #00c46a;
+  padding: 6px 15px;
+  border-radius: 5px;
+  color: black;
+}
+
+/* Row 2 */
+.login .row2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
+}
+.row2 .Login-sec {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 31%;
+  height: 56%;
+  padding: 20px;
+  border-radius: 6px;
+  background-color: #42484d;
+}
+.email-sec,
+.password-sec {
+  width: 100%;
+  margin: 5px 0px;
+}
+.email-sec label,
+.password-sec label {
+  display: flex;
+  color: white;
+  margin: 0px 0px 6px;
+  font-size: 16.5px;
+  font-weight: 600;
+}
+.email-sec input,
+.password-sec input {
+  width: 94.5%;
+  height: 22px;
+  padding: 9px 11px;
+  border-radius: 5px;
+  border: none;
+  outline: black;
+  font-size: 15px;
+}
+.login-btn-sec button {
+  background-color: #00c46a;
+  padding: 8px 15px;
+  border-radius: 5px;
+  color: black;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  cursor: pointer;
+}
